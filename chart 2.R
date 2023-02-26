@@ -1,4 +1,4 @@
-# Types of checkouts over the past 4 years (before pandemic, during, and after)
+# Types of checkouts over the past 6 years 
 
 library(dplyr)
 library(stringr)
