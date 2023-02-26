@@ -5,15 +5,17 @@ output: html_document
 
 ### Introduction
 
-The Seattle Public Library has been collecting data about items checked out by people ever since 2005! This includes, the book, type of checkout, whether the item is physical or virtual, and much more! I chose to anaylze physical / virtual books in my first chart for the past 4 years, the types of checkout people were using over the past 6 years, and then finding out the amount of checkouts for some of my favorite authors!
+The Seattle Public Library has been collecting data about items checked out by people ever since 2005! This includes, the book, type of checkout, whether the item is physical or virtual, and much more! I chose to analyze physical / virtual books in my first chart for the past 4 years, the types of checkout people were using over the past 6 years, and then finding out the amount of checkouts for some of my favorite authors!
+
+I've decided to analyze these 3 different types of questions because I think personally am curious about how the pandemic had influenced these decisions, as I would assume physical books vs ebooks would have dramatically took a turn, or how the different types of checking out methods, and even going to a more closer relation to me on what it was like for my personal favorite authors!
 
 ### Summary Information
 
-I found 5 values that I was interested in throughout my charts! My first value was that in 2020-01-01, there was 274834 people who had physical book checkouts while there was only 79641 visual book (or ebook) in 2021-01-01, visual book (ebook) had hit their highest count of people who checkout ebooks with 103130, which isn't even close to a regular phsyical book checkout! A physical book highest checkout was 289311 and that is in 2023-01-01. Another value that I found interesting was in my last chart, where in 2020 Suzanne Collins had 800 checkouts on books! And compared to another author (Veronica Roth) she had a really big difference.
+I found 5 values that I was interested in throughout my charts! My first value was that in 2020-01-01, there was 274834 people who had physical book checkouts while there was only 79641 visual book (or eBook) in 2021-01-01, visual book (eBook) had hit their highest count of people who checkout eBooks with 103130, which isn't even close to a regular physical book checkout! A physical book highest checkout was 289311 and that is in 2023-01-01. Another value that I found interesting was in my last chart, where in 2020 Suzanne Collins had 800 checkouts on books! And compared to another author (Veronica Roth) she had a really big difference.
 
 ### The Dataset
 
-The Seattle Public Schools had published this data. There were smaller data sets that were given, as I had used the dataset about items checked out at least 10 times a month from 2017-2023. There were multiple different columns or parameters that these datasets had, for things such as usage, checkout type, material type, dates, title of the book, etc. I think some limitations on this data might be from the books that get lost or when someone doesn't check out a book / check back in. I think that there is another problem with the data as sometimes the creator (or author) would have sometimes their last name first and so filtering through the data can sometimes lead to not include the whole data about an author. Ethically might be questioned if Seattle Public School released the names of the people who check out the books, As sometimes people might not want to be shown what they are reading! Other than that, I don't really know any other possible limitations.
+The Seattle Public Schools had published this data. There were smaller data sets that were given, as I had used the dataset about items checked out at least 10 times a month from 2017-2023. There were multiple different columns or parameters that these data sets had, for things such as usage, checkout type, material type, dates, title of the book, etc. I think some limitations on this data might be from the books that get lost or when someone doesn't check out a book / check back in. I think that there is another problem with the data as sometimes the creator (or author) would have sometimes their last name first and so filtering through the data can sometimes lead to not include the whole data about an author. Ethically might be questioned if Seattle Public School released the names of the people who check out the books, As sometimes people might not want to be shown what they are reading! Other than that, I don't really know any other possible limitations.
 
 ### First Trends Over Time Chart
 
@@ -22,22 +24,26 @@ The Seattle Public Schools had published this data. There were smaller data sets
 
 For my first chart, I chose to showcase the difference of physical book vs ebook throughout the last 4 years. I chose this because I questioned if there was going to be a dramatic change because of the pandemic. However, with looking at the chart, it is easy to tell that even through the pandemic, people still had more physical books than they had ebooks.
 
+I think it was still a shock though! You would think that people would rent out online, but maybe we don't realize that maybe people decided to read online without having to check out from a library. Although the numbers for checking out physical books in 2020 were still pretty high! There was a drop due to covid, but from the graph, the numbers are pretty huge and we can tell a story that today people are reading even more books than they have before the pandemic. 
+
 
 
 ### Second Trends Over Time Chart
 
-For my second chart, I decided to shwocase the difference of checkout types over 6 years! The types of checkouts that the data had weren't that big, but it seemed like each checkout type coordinated with something. Like how Freegal rental was for music.
+For my second chart, I decided to showcase the difference of checkout types over 6 years! The types of checkouts that the data had weren't that big, but it seemed like each checkout type coordinated with a caterogry. Like how Freegal rental was for music. I assumed that Horizon would lead the chart (as this was the checkout for most novels) and it came out true! It made sense, because I don't think too many people go to libraries to rent out music / movies anymore. Because we either use apple music or Spotify nowadays. 
 
-I assumed that Horizon would lead the chart (as this was the checkout for most novels) and it came out true! It made sense, because I don't think too many people go to libraries to rent out music / movies anymore. Because we either use apple music/spotify or stream movies!
+It's suprising how dramatic the chart has fallen. I've noticed that through this chart, we can see that prior to the pandemic, there was a consistent pattern of those who rented out for Horizon, until the pandemic and it sunk to rock bottom. Following with the others, and since then, there hasn't been much of a recovery. That is an interesting story to tell, and I wonder why that is the case. Maybe there is another method of checking out?
 
 ``````{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("../chart 2.R")}
 ```
 
 ### Your Choice
 
-For my last chart, I decided to show a few of my favorite authors! I chose Suzanne Collins, Rick Riodarn, and Veronica Roth. I couldn't for some reason, be able to get Rick Riodarn into the graph, but he was the author that created the percy jackson series! The chart showed the amount of checkouts from the Seattle Public Library through 2019 - 2023.
+For my last chart, I decided to show a few of my favorite authors! I chose Suzanne Collins, Rick Riodarn, and Veronica Roth. I couldn't for some reason, be able to get Rick Riodarn into the graph, but he was the author that created the Percy Jackson series! The chart showed the amount of checkouts from the Seattle Public Library through 2019 - 2023.
 
-I would assume Suzzane Collins would be on the top, as she was the creator of Hunger Games, and that book is a classic. Veronica Roth created Divergent (and even though I liked it, a lot more people know about hunger games) 
+I would assume Suzzane Collins would be on the top, as she was the creator of Hunger Games, and that book is a classic. Veronica Roth created Divergent (and even though I liked it, a lot more people know about hunger games) I was curious to see how far the distance was though. 
+
+I wasn't too surprised about the fact, but it was suprising to see how high in popularity she got from the Seattle Public Library data in 2020 (peek covid) of how those that did check out books, decided to read from Suzzane Collins. 
 
 ``````{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("../chart 3.R")}
 ```
