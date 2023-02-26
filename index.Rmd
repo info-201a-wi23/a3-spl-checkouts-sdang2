@@ -17,11 +17,13 @@ The Seattle Public Schools had published this data. There were smaller data sets
 
 ### First Trends Over Time Chart
 
-``````{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("../chart_1.R")}
+``````{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("chart_1.R")}
 ```
 
 For my first chart, I chose to showcase the difference of physical book vs ebook throughout the last 4 years. I chose this because I questioned if there was going to be a dramatic change because of the pandemic. However, with looking at the chart, it is easy to tell that even through the pandemic, people still had more physical books than they had ebooks.
 
+``````{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("chart 2.R")}
+```
 
 
 ### Second Trends Over Time Chart
@@ -30,8 +32,6 @@ For my second chart, I decided to shwocase the difference of checkout types over
 
 I assumed that Horizon would lead the chart (as this was the checkout for most novels) and it came out true! It made sense, because I don't think too many people go to libraries to rent out music / movies anymore. Because we either use apple music/spotify or stream movies!
 
-``````{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("../chart 2.R")}
-```
 
 ### Your Choice
 
@@ -39,7 +39,4 @@ For my last chart, I decided to show a few of my favorite authors! I chose Suzan
 
 I would assume Suzzane Collins would be on the top, as she was the creator of Hunger Games, and that book is a classic. Veronica Roth created Divergent (and even though I liked it, a lot more people know about hunger games) 
 
-``````{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("../chart 3.R")}
-```
-
-
+\`\`\``{r, echo = FALSE, code = readLines("chart2_example.R")}`
